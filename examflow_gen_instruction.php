@@ -1,5 +1,33 @@
-<?php
+<?php session_start();
+if (empty($_SESSION['student_passcode'])) {
+	header("Location: examflow_examlogin.php");
+}
 include 'examflow_constants.php';
+include_once 'examflow_classes.php';
+
+$student_image = $_SESSION['image'];
+
+
+if (!empty($_POST)) {
+	if (isset($_POST['startExamBtn'])){
+	
+		$registration_id = $_SESSION['registration_id'];
+		$student_id = $_SESSION['student_id'];
+		$exam_id = $_SESSION['exam_id'];
+
+		//Instantiating object of class Examination for startExamination method
+		$objStartExam = new Examination;
+		$output = $objStartExam->startExamination($registration_id, $student_id, $exam_id);
+		if ($output == "success") {	
+			header("Location: examflow_exampage.php");
+			exit;
+		}else{
+			$message = $output;
+		}
+	/*header("Location: examflow_exampage_objective_multichoice.php");
+	exit;*/
+	}
+}
 
 ?>
 <!DOCTYPE html>
@@ -56,12 +84,12 @@ include 'examflow_constants.php';
 			color: black;
 		}
 		#studentImg{
-			width: 33px;
-			height: 33px;
+			width: 35px;
+			height: 35px;
 			border-radius: 50px;
 		}
 		#instructionDiv{
-			min-height: 450px;
+			min-height: 480px;
 			clear: both;
 		}
 		#instructionDiv div ul{
@@ -91,14 +119,14 @@ include 'examflow_constants.php';
 				
 			</div>
 			<div class="offset- col-3 pr-0 float-right">
-				<img src="exam_image/avatar1.png" alt="an alt" id="studentImg">&nbsp;
-				<span>Oyekola</span>
-				<span>Toheeb</span>
+				<img src="examflow_profilepictures/<?php echo $student_image ??'avatar.png' ?>" alt="an alt" id="studentImg">&nbsp;
+				<span><?php echo $_SESSION['lname']; ?></span>
+				<span><?php echo $_SESSION['fname']; ?></span>
 			</div>
 		</header>
 		<div class="row" id="instructionDiv">
 			<div class="col-12">
-				<h1 class="">Exam Header</h1>
+				<h1 class=""><?php echo $_SESSION['exam_title'] ?></h1>
 				<hr class="mb-4">
 				<h2 class="mb-3">General Instruction</h2>
 				<ul type="bullet" class="">
@@ -108,8 +136,16 @@ include 'examflow_constants.php';
 					<li>This is the first instruction</li>
 					<li>This is the first instruction</li>
 					<li>This is the first instruction</li>
+					<li><?php echo $_SESSION['exam_instruction']??'Instruction will be here in a short while' ?></li>
 				</ul>
-				<button type="button" class="btn btn-primary" id="startExamBtn">Start Exam</button>
+				<?php
+				if (isset($output)) {
+					echo $output;
+				}
+				?>
+				<form action="" method="post"> 
+				<button type="submit" class="btn btn-primary" id="startExamBtn" name="startExamBtn">Start Exam</button>
+				</form>
 				<div class="clear" ></div>
 			</div>
 		</div>

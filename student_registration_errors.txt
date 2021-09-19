@@ -1,0 +1,4 @@
+Unable to Register student with email aminat@yahoo.com for examination with exam id 5 because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5), 1696061551)' at line 1 on Sunday September 2021 01:56:50 PM.
+Unable to Register student with email aminat@yahoo.com for examination with exam id 5 because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '157483219')' at line 1 on Sunday September 2021 01:58:28 PM.
+Unable to Register student with email toheeb.olawale.to23@gmail.com for examination with exam id 10 because Column 'student_id' cannot be null on Saturday September 2021 08:36:52 PM.
+Unable to Register student with email toheeb.olawale.to23@gmail.com for examination with exam id 10 because Column 'student_id' cannot be null on Saturday September 2021 08:36:58 PM.

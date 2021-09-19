@@ -15,6 +15,11 @@ include 'examflow_constants.php';
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Satisfy&display=swap" rel="stylesheet">
+	<!-- Tiny Cloud for Text formatting area -->
+	<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
+ 	<script>tinymce.init({selector:'textarea'});</script>
+ 	<script>tinymce.init({selector: 'textarea#editor',skin: 'bootstrap',plugins: 'lists, link, image, media',toolbar: 'h1 h2 bold italic strikethrough blockquote bullist numlist backcolor | link image media | removeformat help', menubar: false});
+ 	</script>
 	<!--Bootstrap Stylesheet-->
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
 	<!--External Stylesheet-->
@@ -130,7 +135,7 @@ include 'examflow_constants.php';
 					<div class="row mt-4">
 						<div class="col">
 							<h4>Fill the right answer here</h4>
-							<div class="fixed top" style="color: grey;">Formatting Area</div>
+							<div class="fixed top" style="color: grey;"></div>
 							<textarea class="form-control" name=""></textarea>
 						</div>
 					</div>

@@ -1,0 +1,2 @@
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create subject Pharmacy because Duplicate entry 'Pharmacy' for key 'subject_name'

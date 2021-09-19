@@ -1,6 +1,20 @@
-<?php
+<?php session_start();
+if (empty($_SESSION['student_passcode'])) {
+	header("Location: examflow_examlogin.php");
+}
 include 'examflow_constants.php';
 
+$email = $_SESSION['email'];
+$student_fname = $_SESSION['fname'];
+$student_lname = $_SESSION['lname'];
+$exam_title = $_SESSION['exam_title'];
+$exam_duration = $_SESSION['exam_duration'];
+$student_image = $_SESSION['image'];
+
+if (isset($_POST['logoutExamBtn'])) {
+	header("Location: examflow_examlogout2.php");
+	exit;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -82,44 +96,44 @@ include 'examflow_constants.php';
 				</nav>
 			</div>
 		</header>
+		<?php 
+		if (isset($_GET['aQ']) AND isset($_GET['tQ'])) {
+			$aQ = $_GET['aQ'];
+			$tQ = $_GET['tQ'];
+		}
+		?>
 		<div class="row">
-			<div class="col-4 offset-4" id="studentImgDiv">
-				<img src="exam_image/avatar1.png" alt="" class="img-fluid" id="studentImg">
+			<div class="col-4 offset-3" id="studentImgDiv">
+				<img src="examflow_profilepictures/<?php echo $student_image ??'avatar.png' ?>" alt="" class="img-fluid" id="studentImg">
 			</div>
 		</div>
 		<!-- This is the div student Details aftre the exam -->
 		<div class="row">
 			<div class="col-4 offset-4 text-center" id="studentDetailDiv">
 				<div class="row">
-					<div class="col text-right">
-						<p>Name:</p>
-						<p>Email:</p>
-						<p>Exam title:</p>
-						<p>Questions:</p>
-						<p>Duration:</p>
-						<p>Review:</p>
-					</div>
 					<div class="col text-left">
-						 <p> Oyekola Toheeb</p>
-						 <p> Toheeb.OLawale.TO23@gmail.com</p>
-						 <p> GNS404</p>
-						 <p> 50</p>
-						 <p> 1:00 :00</p>
-						 <p> 
-						 	<span class="fa fa-star "></span>
+						<p style="font-size: 22px;"><?php if(isset($_GET['msg'])){ echo $_GET['msg'];}?></p>
+						<p>Name: <?php echo $student_lname." ".$student_fname ?></p>
+						<p>Email: <?php echo $email; ?></p>
+						<p>Exam title: <?php echo $exam_title; ?></p>
+						<p>Attempted Questions: <?php echo $aQ."/".$tQ ?></p>
+						<p>Duration: <?php echo $exam_duration." Minutes"??'1:00:00'; ?></p>
+						<!-- <p>Review:
+							<span class="fa fa-star "></span>
 						 	<span class="fa fa-star "></span>
 						 	<span class="fa fa-star "></span>
 						 	<span class="fa fa-star "></span>
 						 	<span class="fa fa-star"></span>
-
-						 </p>
+						</p> -->
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row mt-4 mb-5">
 			<div class="col">
-				<input type="button" name="" class="btn btn-primary" value="Log Out" id="logoutExamBtn">
+				<form method="post" action="">
+					<input type="submit" name="logoutExamBtn" class="btn btn-primary" value="Log Out" id="logoutExamBtn">
+				</form>
 				<div class="clearFloat" ></div>
 			</div>
 		</div>
@@ -138,8 +152,7 @@ include 'examflow_constants.php';
 	<script type="text/javascript" language="javascript">
 		$(document).ready(function(){
 			
-		}
-			)
+		})
 	</script>
 </body>
 </html>

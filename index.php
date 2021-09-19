@@ -61,8 +61,9 @@ include 'examflow_constants.php';
 			height:800px;
 		}
 		.carouselText{
-			color: brown;
+			color: ;
 			font-weight: lighter;
+			background-color: rgba(166, 189, 240, 0.5);
 		}
 		.responsiveDiv{
 			height: 370px; 
@@ -283,13 +284,13 @@ include 'examflow_constants.php';
 				  <div class="collapse navbar-collapse text-center justify-content-center text-justify" id="navbarNavDropdown">
 				    <ul class="navbar-nav align-items-center">
 				      <li class="nav-item active">
-				        <a class="nav-link ml-md-3" href="gui_index.html">HOME<span class="sr-only">(current)</span></a>
+				        <a class="nav-link ml-md-3" href="index.php">HOME<span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link ml-md-3" href="examflow_login_signup.php#logInForm">LOGIN</a>
+				        <a class="nav-link ml-md-3" href="examflow_login_signup.php?message=login">LOGIN</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link ml-md-3" href="examflow_login_signup.php#signUpForm">SIGN UP</a>
+				        <a class="nav-link ml-md-3" href="examflow_login_signup.php?message=signup">SIGN UP</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link ml-md-3" href="#reviewCarousel">REVIEWS</a>
@@ -298,7 +299,7 @@ include 'examflow_constants.php';
 				        <a class="nav-link" href="#featuresDiv">FEATURES</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link ml-md-3" href="#">ABOUT US</a>
+				        <a class="nav-link ml-md-3" href="#aboutUs">ABOUT US</a>
 				      </li>
 				      <li class="nav-item">
 				      	<!-- Modal Contact Us click here -->
@@ -354,7 +355,7 @@ include 'examflow_constants.php';
 			    <div class="carousel-item active">
 			      <img src="exam_image/exam8.jpg" class="d-block w-100 img-fluid carousel_img" alt="...">
 			      <div class="carousel-caption d-none d-md-block mb-5">
-		           	  <h1 class="display-1 carouselText" id="firstSlideText">First slide label</h1>
+		           	  <h1 class="display-1 carouselText" id="firstSlideText">Stress Free Exams</h1>
 		              <p class="display-4 carouselText">Some representative placeholder content for the first slide.</p>
 		              <p class="mb-5"></p>
 		            </div>
@@ -362,22 +363,22 @@ include 'examflow_constants.php';
 			    <div class="carousel-item">
 			      <img src="exam_image/exam12.jpg" class="d-block w-100 img-fluid carousel_img" alt="...">
 			      <div class="carousel-caption d-none d-md-block mb-5">
-		           	 <h1 class="display-1 carouselText" id="secondSlideText">Second slide label</h1>
+		           	 <h1 class="display-1 carouselText" id="secondSlideText">Exam Center Freedom</h1>
 		             <p class="display-4 carouselText">Some representative placeholder content for the second slide.</p>
 	              </div>
 			    </div>
 			    <div class="carousel-item">
 			      <img src="exam_image/exam13.jpg" class="d-block w-100 img-fluid carousel_img" alt="...">
-			      <div class="carousel-caption d-none d-md-block mb-5 carouselText">
-		           	 <h1 class="display-1 carouselText" id="thirdSlideText">Third slide label</h1>
+			      <div class="carousel-caption d-none d-md-block mb-5 ">
+		           	 <h1 class="display-1 carouselText" id="thirdSlideText">Exam Comfortablity</h1>
 		             <p class="display-4 carouselText">Some representative placeholder content for the second slide.</p>
 	              </div>
 			    </div>
 			    <div class="carousel-item">
 			      <img src="exam_image/exam15.jpg" class="d-block w-100 img-fluid carousel_img" alt="...">
-			      <div class="carousel-caption d-none d-md-block mb-5 carouselText">
-		           	 <h1 class="display-1" id="fourthSideText">Fourth slide label</h1>
-		             <p class="display-4">Some representative placeholder content for the second slide.</p>
+			      <div class="carousel-caption d-none d-md-block mb-5">
+		           	 <h1 class="display-1 carouselText" id="fourthSlideText">Automated Result</h1>
+		             <p class="display-4 carouselText">Some representative placeholder content for the second slide.</p>
 	              </div>
 			  	</div>
 		     </div>
@@ -409,9 +410,8 @@ include 'examflow_constants.php';
 				<div class="card rounded cardDiv" style="width: 18rem;">
 				  <img src="exam_image/exam5.png" class="card-img-top" alt="...">
 				  <div class="card-body card-body-color">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-				    <a href="#" class="btn btn-primary rounded">Read more</a>
+				    <h5 class="card-title">Examiner ease</h5>
+				    <p class="card-text">Setting of examination has never been this easy for examiners but with examflow, examiner find ease.</p>
 				  </div>
 				</div>
 			</div>
@@ -419,9 +419,8 @@ include 'examflow_constants.php';
 				<div class="card rounded cardDiv" style="width: 18rem;">
 				  <img src="exam_image/exam7.png" class="card-img-top" alt="...">
 				  <div class="card-body card-body-color">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-				    <a href="#" class="btn btn-primary rounded">Read more</a>
+				    <h5 class="card-title">Comfortability</h5>
+				    <p class="card-text">Writing of exams exams has been an harship overtime but examflow has brougth comforts to it.</p>
 				  </div>
 				</div>
 			</div>
@@ -429,9 +428,8 @@ include 'examflow_constants.php';
 				<div class="card rounded cardDiv" style="width: 18rem;">
 				  <img src="exam_image/exam10.png" class="card-img-top" alt="...">
 				  <div class="card-body card-body-color">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  </p>
-				    <a href="#" class="btn btn-primary rounded">Read more</a>
+				    <h5 class="card-title">Student Access</h5>
+				    <p class="card-text">It comes handy for students and makes examination hardship a thing of the past.</p>
 				  </div>
 				</div>
 			</div>
@@ -439,9 +437,8 @@ include 'examflow_constants.php';
 				<div class="card rounded cardDiv" style="width: 18rem;">
 				  <img src="exam_image/exam9.png" class="card-img-top" alt="...">
 				  <div class="card-body card-body-color">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-				    <a href="#" class="btn btn-primary rounded">Read more</a>
+				    <h5 class="card-title">Admin Interaction</h5>
+				    <p class="card-text">Exaflow application grants unlimited access to users to lay thier complain to admin.</p>
 				  </div>
 				</div>
 			</div>
@@ -485,7 +482,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Student Validation</h5>
 				    <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Student details are throughly verified before and after each examination preventing impersonation amd malpractices.</p>
 				  </div>
 				</div>
 			</div>
@@ -494,7 +491,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Automated Result</h5>
 				    <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Examiner are saved the stress of marking questions with examflow, the marking process will be handled by examflow.</p>
 				  </div>
 				</div>
 			</div>
@@ -503,7 +500,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Secured Browser</h5>
 				     <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Special security architecture is used to allow for Web browsing that is more protected from various kinds of cyberattacks.</p>
 				  </div>
 				</div>
 			</div>
@@ -512,7 +509,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Question Variety</h5>
 				     <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">An examiner has an option to select from a variety of questions which makes it easy for examiners to carry out. </p>
 				  </div>
 				</div>
 			</div>
@@ -521,7 +518,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Admin Support</h5>
 				    <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Admin are at the sevices of the users round the clock to recieve complains, render assitance and give feedbacks.</p>
 				  </div>
 				</div>
 			</div>
@@ -530,7 +527,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Proctoring Technology</h5>
 				    <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Examination are closely monitiored on examflow to prevent cheating and other irregularities.</p>
 				  </div>
 				</div>
 			</div>
@@ -539,7 +536,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Secured Data</h5>
 				    <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Data security means  alot to us, we don't give out data of exmaflow user to unauthorized sources.</p>
 				  </div>
 				</div>
 			</div>
@@ -548,7 +545,7 @@ include 'examflow_constants.php';
 				  <div class="card-body">
 				    <h5 class="card-title">Highly Scalable</h5>
 				    <hr>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <p class="card-text">Examflow application can handle a large increase in users, workload without undue strain.</p>
 				  </div>
 				</div>
 			</div>
@@ -616,7 +613,7 @@ include 'examflow_constants.php';
 			</div>
 		</div>
 		<!-- COUNTER -->
-		<div class="row mt-5" >
+		<!-- <div class="row mt-5" >
 			<div class="col-6 offset-3" >
 				<div class="text-center col-12 pb-1" id="counterDiv">			
 					<h3 class="text-light" >Our Numbers</h3>
@@ -642,11 +639,11 @@ include 'examflow_constants.php';
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- FAQS Accordion -->
-		<div class="row mt-5 mb-5">
+		<div class="row mt-5 mb-5" id="faq">
 			<div class="offset-md-3 offset-1 col-md-6 col-10">
-				<h3 class="text-center mb-5">Frequently Asked Questions (FAQs)</h3>
+				<h3 class="text-center mb-5" >Frequently Asked Questions (FAQs)</h3>
 				<div class="accordion" id="accordionExample">
 				  <div class="card">
 				    <div class="card-header" id="headingOne">
@@ -826,14 +823,14 @@ include 'examflow_constants.php';
 				<h5>Section</h5>
 				<ul class="nav flex-column">
 				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+				  <li class="nav-item mb-2"><a href="#featuresDiv" class="nav-link p-0 text-muted">Features</a></li>
+				  <li class="nav-item mb-2"><a href="#reviewCarousel" class="nav-link p-0 text-muted">Reviews</a></li>
+				  <li class="nav-item mb-2"><a href="#faq" class="nav-link p-0 text-muted">FAQs</a></li>
+				  <li class="nav-item mb-2"><a href="#aboutUs" class="nav-link p-0 text-muted">About</a></li>
 				</ul>
 			</div>
 			<div class="col-4  text-left">
-				<h4 id="">ABOUT US</h4>
+				<h4 id="aboutUs">ABOUT US</h4>
 				<p class="text-muted"><?php echo APPNAME;?> is with the mission to make life smarter. We are built to change the ICT and educational sectors in Africa and specifically Nigeria by developing internationally accepted solutions that can compete at any level.</p>
 			</div>
 			<div class="col-5">
@@ -867,6 +864,7 @@ include 'examflow_constants.php';
 			$("#firstSlideText").addClass('animate__animated animate__zoomInDown animate__delay-1s')
 			$("#secondSlideText").addClass('animate__animated animate__zoomInDown animate__delay-1s')
 			$("#thirdSlideText").addClass('animate__animated animate__zoomInDown animate__delay-1s')
+			$("#fourthSlideText").addClass('animate__animated animate__zoomInDown animate__delay-1s')
 		})
 	</script>
 </body>

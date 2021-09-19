@@ -1,0 +1,3 @@
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, examiner_password ='e926cd8f5483c1372bc72fa6f985c459', examiner_phon' at line 1 for registration toheeb oyekola as an examiner 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, examiner_password ='e926cd8f5483c1372bc72fa6f985c459', examiner_phon' at line 1 for registration of toheeb oyekola as an examiner at Saturday August 2021 09:18:58 am
+Duplicate entry 'toheeb.olawale.to23@gmail.com' for key 'examiner_email_UNIQUE' for registration of Olawale Oyekola as an examiner on Saturday August 2021 02:06:14 PM.

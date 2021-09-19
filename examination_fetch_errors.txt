@@ -1,0 +1,9 @@
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:44:24 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:44:26 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:44:42 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:45:16 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:45:35 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:46:10 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:46:24 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:46:25 PM.
+Unable get all examinations by student_id with id 1 because Unknown column 'exam_start_date' in 'where clause' on Tuesday September 2021 09:46:26 PM.

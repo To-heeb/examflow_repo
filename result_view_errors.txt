@@ -1,0 +1,10 @@
+Student with id  is unable to view result because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:04:57 AM.
+Student with id  is unable to view result because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:05:16 AM.
+Examiner unable to view result of examination  with id 5 is unable to view result because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:06:22 AM.
+Examiner unable to view result of examination  with id 9 is unable to view result because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:06:25 AM.
+Examiner unable to view result of examination  with id 9 because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:07:28 AM.
+Examiner unable to view result of examination  with id 5 because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:07:31 AM.
+Examiner unable to view result of examination  with id 4 because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:08:32 AM.
+Examiner unable to view result of examination  with id 10 because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:08:36 AM.
+Examiner unable to view result of examination  with id 5 because Table 'examflow.student_answers' doesn't exist on Friday September 2021 01:08:39 AM.
+Examiner unable to view result of examination  with id 5 because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM students JOIN registered_students ON students.student_id = registered_stude' at line 1 on Saturday September 2021 04:53:12 PM.

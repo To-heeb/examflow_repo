@@ -1,0 +1,42 @@
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create new exaniabtion because Cannot add or update a child row: a foreign key constraint fails (`examflow`.`examinations`, CONSTRAINT `fk2` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create new exaniabtion because Cannot add or update a child row: a foreign key constraint fails (`examflow`.`examinations`, CONSTRAINT `fk2` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable create new exaniabtion because Cannot add or update a child row: a foreign key constraint fails (`examflow`.`examinations`, CONSTRAINT `fk2` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Unable create subject Anatomy because Duplicate entry 'Anatomy' for key 'subject_name'
+Unable to get all examinations because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= exam_updated_at ORDER BY exam_created_at' at line 1
+Unable to get all examinations because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= exam_updated_at ORDER BY exam_created_at' at line 1
+Unable to get all examinations because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= exam_updated_at ORDER BY exam_created_at' at line 1
+Unable to get all examinations because Unknown table 'examflow.examination' on Friday September 2021 07:48:40 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2021-09-13T20:41 = '2021-09-13T20:41', 2021-09-14T18:41 = '2021-09-14T18:41', 20' at line 1 on Monday September 2021 06:43:14 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2021-09-13T20:41 = '2021-09-13T20:41', 2021-09-14T18:41 = '2021-09-14T18:41', 20' at line 1 on Monday September 2021 06:44:10 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2021-09-13T18:50 = '2021-09-13T18:50', 2021-09-14T18:50 = '2021-09-14T18:50', 20' at line 1 on Monday September 2021 06:50:59 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-13T18:50', exam_end_time = '2021-09-14T18:50', exam_r' at line 1 on Monday September 2021 06:52:46 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-13T18:55', exam_end_time = '2021-09-14T18:55', exam_r' at line 1 on Monday September 2021 06:57:12 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-13T18:57', exam_end_time = '2021-09-14T18:57', exam_r' at line 1 on Monday September 2021 06:57:40 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-13T18:57', exam_end_time = '2021-09-14T18:57', exam_r' at line 1 on Monday September 2021 06:58:25 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-13T18:58', exam_end_time = '2021-09-14T18:58', exam_r' at line 1 on Monday September 2021 06:58:58 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-13T18:58', exam_end_time = '2021-09-14T18:58', exam_r' at line 1 on Monday September 2021 06:59:30 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xam_start_time = '2021-09-14T19:14', exam_end_time = '2021-09-15T03:14', exam_r' at line 1 on Monday September 2021 07:15:32 PM.
+Unable update examination because You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2021-09-14T19:28 = '2021-09-14T19:28', exam_end_time = '2021-09-15T19:28', exam_' at line 1 on Monday September 2021 07:28:34 PM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:20:45 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:20:48 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:20:49 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:20:50 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:20:51 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:08 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:09 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:34 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:35 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:36 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:37 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:21:58 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:22:01 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:22:02 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:22:04 AM.
+Unable to get all examinations because Unknown column 'exam' in 'where clause' on Wednesday September 2021 12:22:05 AM.

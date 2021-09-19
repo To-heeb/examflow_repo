@@ -1,0 +1,13 @@
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:25:14 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:26:32 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:27:29 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:28:31 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:28:31 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:28:32 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:28:33 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:30:53 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:30:54 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:32:23 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:32:23 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because  because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:32:59 PM.
+Unable to count all attempted questions for student with id 1 to display on dashboard because Unknown column 'student_id' in 'where clause' on Sunday September 2021 07:34:12 PM.

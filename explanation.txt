@@ -1,0 +1,24 @@
+$('[id^=fcomment]')
+jQuery(document).on('click', '#deleteExamination');
+
+
+to get any element that starts with 'deleteExamination'
+jQuery(document).on('click', '[id^=deleteExamination]');
+
+
+
+this is used to capture the data and pass it to jQuery
+<div data-price='2000' data-color='blue' data-id='1'></div>
+
+
+to capture what has been stored in the data in jQuery
+$(this).data('color');
+$(this).data('price');
+$(this).data('id');
+
+another method to capture what has been stored in the data in jQuery
+$(this).attr('data-price');
+$(this).attr('data-color');
+
+
+This will capture everything that have been stored in the data-value attribute.
